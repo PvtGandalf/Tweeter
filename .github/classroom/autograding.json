@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "Server listens on port 3000 by default",
+      "setup": "npm install",
+      "run": "npm test -- -t \"port 3000\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Server listens on port specified by PORT environment variable",
+      "setup": "npm install",
+      "run": "npm test -- -t \"specified port\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "index.html content is served correctly",
+      "setup": "npm install",
+      "run": "npm test -- -t \"index.html content is served correctly\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "style.css content is served correctly",
+      "setup": "npm install",
+      "run": "npm test -- -t \"style.css content is served correctly\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "index.js content is served correctly",
+      "setup": "npm install",
+      "run": "npm test -- -t \"index.js content is served correctly\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "404.html content is served correctly",
+      "setup": "npm install",
+      "run": "npm test -- -t \"404.html content is served correctly\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "index.html status and Content-Type are correct",
+      "setup": "npm install",
+      "run": "npm test -- -t \"index.html status and Content-Type\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "style.css status and Content-Type are correct",
+      "setup": "npm install",
+      "run": "npm test -- -t \"style.css status and Content-Type\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "index.js status and Content-Type are correct",
+      "setup": "npm install",
+      "run": "npm test -- -t \"index.js status and Content-Type\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "404.html status and Content-Type are correct",
+      "setup": "npm install",
+      "run": "npm test -- -t \"404.html status and Content-Type\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "index.html is correctly served on root URL path",
+      "setup": "npm install",
+      "run": "npm test -- -t \"index.html is correctly served on root URL path\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "404 page is correctly served for invalid URLs",
+      "setup": "npm install",
+      "run": "npm test -- -t \"404 page is correctly served for invalid URL\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}

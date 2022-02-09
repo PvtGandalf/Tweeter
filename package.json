@@ -1,0 +1,26 @@
+{
+  "name": "master-assignment-4",
+  "version": "1.0.0",
+  "description": "Simple Node.js-based file server",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp20/master-assignment-4.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp20/master-assignment-4/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp20/master-assignment-4#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "get-port": "^5.1.1",
+    "jest": "^26.0.1",
+    "port-pid": "0.0.7"
+  }
+}
