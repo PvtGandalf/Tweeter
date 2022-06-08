@@ -4,8 +4,7 @@
   "description": "Simple Node.js-based mock twitter",
   "main": "server.js",
   "scripts": {
-    "start": "npm start",
-    "build": "npm install",
+    "build": "npm start",
     "test": "jest"
   },
   "repository": {
