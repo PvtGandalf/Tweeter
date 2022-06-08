@@ -1,21 +1,23 @@
 {
-  "name": "master-assignment-4",
+  "name": "tweeter",
   "version": "1.0.0",
-  "description": "Simple Node.js-based file server",
+  "description": "Simple Node.js-based mock twitter",
   "main": "server.js",
   "scripts": {
+    "start": "npm start",
+    "build": "npm install",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osu-cs290-sp20/master-assignment-4.git"
+    "url": "git+https://github.com/PvtGandalf/Tweeter.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/osu-cs290-sp20/master-assignment-4/issues"
+    "url": "https://github.com/PvtGandalf/Tweeter/issues"
   },
-  "homepage": "https://github.com/osu-cs290-sp20/master-assignment-4#readme",
+  "homepage": "https://github.com/PvtGandalf/Tweeter#readme",
   "dependencies": {},
   "devDependencies": {
     "axios": "^0.19.2",
