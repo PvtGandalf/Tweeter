@@ -4,7 +4,7 @@
   "description": "Simple Node.js-based mock twitter",
   "main": "server.js",
   "scripts": {
-    "build": "npm start",
+    "build": "esbuild server.js --bundle --minify --define:global=window --outfile=dist/server.js",
     "test": "jest"
   },
   "repository": {
